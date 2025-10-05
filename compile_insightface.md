@@ -23,7 +23,7 @@ py -3.13 -m venv .envwin
 .envwin\Scripts\activate
 ```
 
-Linux
+Linux/macos
 ```
 python3.13 -m venv .envwin 
 . ./.envwin/bin/activate
