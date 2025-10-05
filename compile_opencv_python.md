@@ -14,7 +14,7 @@ if you havent already you should install the dev headers
 ```
 sudo apt-get install python3-dev python3-numpy
 ```
-
+export CFLAGS="-I /usr/local/lib/python2.7/dist-packages/numpy/core/include $CFLAGS"
 
 ### get the code
 

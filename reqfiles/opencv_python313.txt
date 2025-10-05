@@ -1,3 +1,4 @@
 opencv_python @ https://github.com/loscrossos/lib_compileguides/releases/download/2025.10/opencv_python-4.12.0+7bd1825-cp313-cp313-win_amd64.whl ; sys_platform == "win32" and python_version >= "3.13"
 opencv_python_headless @ https://github.com/loscrossos/lib_compileguides/releases/download/2025.10/opencv_python_headless-4.12.0+7bd1825-cp313-cp313-win_amd64.whl ; sys_platform == "win32" and python_version >= "3.13"
 opencv_python @ https://github.com/loscrossos/lib_compileguides/releases/download/2025.10/opencv_python-4.12.0+7bd1825-cp313-cp313-linux_x86_64.whl ; sys_platform == "linux" and python_version >= "3.13"
+opencv_python_headless @ https://github.com/loscrossos/lib_compileguides/releases/download/2025.10/opencv_python_headless-4.12.0+7bd1825-cp313-cp313-linux_x86_64.whl ; sys_platform == "linux" and python_version >= "3.13"
