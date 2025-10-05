@@ -2,6 +2,13 @@
 
 Compilation of Insightface is straight forward. here on windows for python 3.13
 
+### pre-requisites
+
+on macos:
+```
+brew install llvm
+```
+
 ### get the code
 
 ```
