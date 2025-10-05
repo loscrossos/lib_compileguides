@@ -7,7 +7,13 @@ see: https://github.com/opencv/opencv-python/pull/1142
 
 Example on windows.
 
- 
+
+### Linux pre-requisites:
+
+if you havent already you should install the dev headers
+```
+sudo apt-get install python3-dev python3-numpy
+```
 
 
 ### get the code

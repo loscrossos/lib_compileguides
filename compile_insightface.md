@@ -6,14 +6,24 @@ Compilation of Insightface is straight forward. here on windows for python 3.13
 
 ```
 git clone https://github.com/deepinsight/insightface 
-
+cd insightface 
 ```
 ### create venv
 
+Windows
 ```
-cd insightface 
 py -3.13 -m venv .envwin 
 .envwin\Scripts\activate
+```
+
+Linux
+```
+python3.13 -m venv .envwin 
+. ./.envwin/bin/activate
+```
+
+
+```
 pip install wheel setuptools Cython numpy
 ```
 ### compile
