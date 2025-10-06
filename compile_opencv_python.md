@@ -1,7 +1,10 @@
 
 # opencv-python
 
-Compilation of opencv-python is straight forward. currently you only need to pre-merge a PR that enables pyton 3.13+ compatibility. here on windows for python 3.13
+Compilation of opencv-python is straight forward. 
+
+**update 2025.10:**
+currently you only need to pre-merge a PR that enables pyton 3.13+ compatibility. here on windows for python 3.13
 
 see: https://github.com/opencv/opencv-python/pull/1142
 
@@ -14,16 +17,21 @@ if you havent already you should install the dev headers
 ```
 sudo apt-get install python3-dev python3-numpy
 ```
-export CFLAGS="-I /usr/local/lib/python2.7/dist-packages/numpy/core/include $CFLAGS"
 
 ### get the code
-
-open-cv is currently broken for Python 3.13 or 3.14. you need to merge a PR for it to work.
+we clone the repository
 
 ```
 git clone --recursive https://github.com/opencv/opencv-python.git
 cd  opencv-python
+```
 
+**optional as of 2025.10**
+
+open-cv is currently broken for Python 3.13 or 3.14. you need to merge a PR for it to work.
+
+
+```
 git remote add upstream https://github.com/opencv/opencv-python && git fetch upstream && git fetch upstream pull/1142/head:pr-1142 && git merge pr-1142 
 
 ```
