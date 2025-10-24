@@ -72,17 +72,24 @@ export CXX=g++-11 && export CC=gcc-11
 #optional for headless lib
 # windows
 set ENABLE_HEADLESS=1
+
+#optional for contrib lib
+set ENABLE_CONTRIB=1
+
 #linux
 export ENABLE_HEADLESS=1
 
+export ENABLE_CONTRIB=1
 
 pip wheel . --verbose
-pip wheel . --verbose --no-build-isolation 
-
-
 ```
 
-a wheel appears in a directory shown during the compile process
+a wheel appears in a directory shown during the compile process before the last line in style of e.g.:
+
+```
+Created wheel for opencv-contrib-python: filename=opencv_contrib_python-4.13.0+f65da99-cp313-cp313-win_amd64.whl size=49637865 sha256=723f0ce5d3c92a77563f5e8a45646f43d3ccbffb38f20883456c6b1fc710946d
+Stored in directory: c:\users\user\appdata\local\pip\cache\wheels\49\95\7b\2cae379c03420c76324f9a2f23484fd6ffdd15cd2814
+```
 
 
 
