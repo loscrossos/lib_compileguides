@@ -1,4 +1,4 @@
-https://github.com/loscrossos/lib_compileguides/releases/download/2026.03/llamacpp_gguf_cuda-1.0.2.cu130-torch2.10.0-cp311-cp311-linux_x86_64.whl ; sys_platform == "linux" and python_version == "3.11"
+https://github.com/loscrossos/lib_compileguides/releases/download/2026.03/llamacpp_gguf_cuda-1.0.2+cu130-torch2.10.0-cp311-cp311-linux_x86_64.whl ; sys_platform == "linux" and python_version == "3.11"
 # ; sys_platform == "linux" and python_version == "3.13"
 
 https://github.com/deepbeepmeep/kernels/releases/download/GGUF_Kernels/llamacpp_gguf_cuda-1.0.2+torch271cu128py310-cp310-cp310-win_amd64.whl ; sys_platform == "win32" and python_version == "3.10"
